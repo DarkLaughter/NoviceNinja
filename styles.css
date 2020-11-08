@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Da|Roboto");
 
 body {
   background: #5f1c1c;
@@ -6,7 +6,7 @@ body {
 }
 
 .dojo {
-  background: url("https://cdn.rawgit.com/alexmwalker/6acbe9040d9fe6e5e9fd758a25ee1b2a5/raw9c8131eb2ccc1e3839a5a5114cb16b5dc74daf04/dojo.svg")
+  background: url(https://cdn.rawgit.com/alexmwalker/6acbe9040d9fe6e5e9fd758a25e1b2a5/raw/9c8131eb2ccc1e3839a5a5114cb16b5dc74daf04/dojo.svg)
     no-repeat;
   width: 100%;
   height: 800px;
@@ -21,4 +21,44 @@ body {
   -webkit-box-shadow: 4px 4px 11px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 4px 4px 11px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 4px 4px 11px 3px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #611bbd;
+  font-family: "Baloo Da", cursive;
+  font-weight: 900;
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+}
+
+button {
+  color: #ffffff;
+  background-color: #611bbd;
+  border-color: #130269;
+  border-radius: 4px;
+  margin: 0.2em 0;
+  display: block;
+  width: 100%;
+  font-size: 24px;
+}
+
+#question {
+  font-size: 24px;
+}
+
+#result {
+  color: #fff;
+  margin: 0.2em 0;
+  width: 100%;
+  text-align: center;
+}
+
+.correct {
+  background-color: #0c0;
+}
+
+.wrong {
+  color: #fff;
+  background-color: #0c0;
 }
